@@ -13,11 +13,11 @@ This project explores the long-run optimal bet size under uncertainty through th
 - Log-Utility / Sqrt-Utility
 - Kelly optimal bet sizing
 - Risk/Return Tradeoff
-- Variance / Drawdowns (measure of risk)\
+- Variance / Drawdowns (measure of risk)
 
 ## Implementation:
 - Language: Python
-- Libraries: Numpy, Matplotlib
+- Libraries: Numpy, Matplotlib, Ipywidgets
 - Simulations: 
 
 ## Results:
@@ -34,6 +34,7 @@ This project explores the long-run optimal bet size under uncertainty through th
 ### 2. install required libraries:
 - pip install numpy
 - pip install matplotlib
+- pip install ipywidgets
 ### 3. Run Jupyter Notebooks in order
 1. Interactive notebook: test outcomes of given probability, number of bets, bet_size (% and abs), and number of simulations
 2. Betting Absolute Size vs Percentage: test optimal bet size under given conditions as a dollar bet and as a percentage bet: highlighting optimality of betting %, due to higher payoff and utility
